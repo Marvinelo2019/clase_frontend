@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h2 {
+    font-weight: 700;
+  }
+  
+  p {
+    font-weight: 300;
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 90%;   
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: center; /* Centramos el contenido horizontalmente */
+    align-items: center; /* Centramos el contenido verticalmente */
+    min-height: 100vh; /* Ocupamos toda la altura de la ventana */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .columna {
+    background-color: rgb(228, 228, 228);
+    color: black;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 20px; /* Aumentamos el padding para un mejor espacio interno */
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    max-width: 600px; /* Definimos un ancho máximo para la columna */
+    text-align: center; /* Centramos el texto */
+  }
+  
+  .columna img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Añadimos un margen inferior */
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Permitimos que los botones se ajusten en varias líneas si es necesario */
+  }
+  
+  .buttons a {
+    background-color: darkturquoise;
+    padding: 10px 20px; /* Ajustamos el padding */
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    margin: 5px; /* Añadimos margen entre los botones */
+  }
+  
+  .buttons a:hover {
+    background-color: cadetblue;
+  }
+  
